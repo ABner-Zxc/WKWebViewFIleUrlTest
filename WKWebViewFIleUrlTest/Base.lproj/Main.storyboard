@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7528.3" systemVersion="14D113c" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="ehU-cW-qid">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="ehU-cW-qid">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7518.3"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
     <scenes>
         <!--Load www/index.html as file URL-->
@@ -16,8 +17,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nQf-uy-TPd">
-                                <rect key="frame" x="72" y="82" width="126" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nQf-uy-TPd">
+                                <rect key="frame" x="238" y="82" width="124" height="30"/>
                                 <state key="normal" title="Inside App Bundle">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -25,8 +26,8 @@
                                     <segue destination="0PA-kG-Jke" kind="show" id="mdR-sJ-lEd"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" tag="1" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aKf-yg-cjI">
-                                <rect key="frame" x="88" y="120" width="95" height="30"/>
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aKf-yg-cjI">
+                                <rect key="frame" x="252" y="120" width="95" height="30"/>
                                 <state key="normal" title="Library Folder">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -34,8 +35,8 @@
                                     <segue destination="0PA-kG-Jke" kind="show" id="0if-ly-cZO"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" tag="2" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gLj-tE-6SE">
-                                <rect key="frame" x="59" y="158" width="152" height="30"/>
+                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gLj-tE-6SE">
+                                <rect key="frame" x="224" y="158" width="151" height="30"/>
                                 <state key="normal" title="Library/Caches Folder">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -43,8 +44,8 @@
                                     <segue destination="0PA-kG-Jke" kind="show" id="E1V-VK-GOl"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" tag="3" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RpU-fn-Skd">
-                                <rect key="frame" x="72" y="196" width="127" height="30"/>
+                            <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RpU-fn-Skd">
+                                <rect key="frame" x="237" y="196" width="126" height="30"/>
                                 <state key="normal" title="Documents Folder">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -52,8 +53,8 @@
                                     <segue destination="0PA-kG-Jke" kind="show" id="Olb-3G-Ys9"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" tag="4" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="i0q-K8-vdy">
-                                <rect key="frame" x="88" y="234" width="79" height="30"/>
+                            <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="i0q-K8-vdy">
+                                <rect key="frame" x="261" y="234" width="78" height="30"/>
                                 <state key="normal" title="Tmp Folder">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -67,8 +68,8 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" tag="5" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a9m-XM-lic">
-                                <rect key="frame" x="83" y="272" width="84" height="30"/>
+                            <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a9m-XM-lic">
+                                <rect key="frame" x="258" y="272" width="83" height="30"/>
                                 <state key="normal" title="Google.com">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -76,8 +77,8 @@
                                     <segue destination="0PA-kG-Jke" kind="show" identifier="external" id="ctW-AX-C7B"/>
                                 </connections>
                             </button>
-                            <button hidden="YES" opaque="NO" tag="6" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ym9-8a-9Qg">
-                                <rect key="frame" x="89" y="310" width="92" height="30"/>
+                            <button hidden="YES" opaque="NO" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ym9-8a-9Qg">
+                                <rect key="frame" x="254.5" y="310" width="91" height="30"/>
                                 <state key="normal" title="loadFileURL::">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -88,17 +89,20 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="nQf-uy-TPd" firstAttribute="leading" secondItem="aKf-yg-cjI" secondAttribute="leading" id="0yu-1r-bJw"/>
-                            <constraint firstItem="nQf-uy-TPd" firstAttribute="leading" secondItem="i0q-K8-vdy" secondAttribute="leading" id="3tg-2s-fq7"/>
-                            <constraint firstItem="nQf-uy-TPd" firstAttribute="leading" secondItem="gLj-tE-6SE" secondAttribute="leading" id="6FI-os-6aN"/>
-                            <constraint firstItem="nQf-uy-TPd" firstAttribute="leading" secondItem="RpU-fn-Skd" secondAttribute="leading" id="Bm5-NA-Xvt"/>
-                            <constraint firstAttribute="centerX" secondItem="a9m-XM-lic" secondAttribute="centerX" id="Gay-pd-HVt"/>
-                            <constraint firstAttribute="centerX" secondItem="gLj-tE-6SE" secondAttribute="centerX" id="Obh-52-ecU"/>
-                            <constraint firstAttribute="centerX" secondItem="aKf-yg-cjI" secondAttribute="centerX" id="Xur-WX-PmI"/>
-                            <constraint firstAttribute="centerX" secondItem="nQf-uy-TPd" secondAttribute="centerX" id="ZIj-Pz-bDQ"/>
-                            <constraint firstAttribute="centerX" secondItem="RpU-fn-Skd" secondAttribute="centerX" id="ewm-Ex-JnS"/>
-                            <constraint firstAttribute="centerY" secondItem="a9m-XM-lic" secondAttribute="centerY" id="l2v-dd-O4i"/>
-                            <constraint firstAttribute="centerX" secondItem="i0q-K8-vdy" secondAttribute="centerX" id="q0Y-C6-jtY"/>
+                            <constraint firstItem="RpU-fn-Skd" firstAttribute="top" secondItem="gLj-tE-6SE" secondAttribute="bottom" constant="8" id="0a0-tb-kdh"/>
+                            <constraint firstItem="a9m-XM-lic" firstAttribute="top" secondItem="i0q-K8-vdy" secondAttribute="bottom" constant="8" id="3mi-fo-V0w"/>
+                            <constraint firstItem="gLj-tE-6SE" firstAttribute="top" secondItem="aKf-yg-cjI" secondAttribute="bottom" constant="8" id="F0J-uF-Zpc"/>
+                            <constraint firstItem="i0q-K8-vdy" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="LBE-HC-vxf"/>
+                            <constraint firstItem="i0q-K8-vdy" firstAttribute="top" secondItem="RpU-fn-Skd" secondAttribute="bottom" constant="8" id="S6Q-Z7-blH"/>
+                            <constraint firstItem="ym9-8a-9Qg" firstAttribute="top" secondItem="a9m-XM-lic" secondAttribute="bottom" constant="8" id="SKV-yy-Apq"/>
+                            <constraint firstItem="gLj-tE-6SE" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="dph-T8-JLB"/>
+                            <constraint firstItem="a9m-XM-lic" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="h3E-vV-VBx"/>
+                            <constraint firstItem="aKf-yg-cjI" firstAttribute="top" secondItem="nQf-uy-TPd" secondAttribute="bottom" constant="8" id="hGZ-1l-gqU"/>
+                            <constraint firstItem="nQf-uy-TPd" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="18" id="jPZ-tb-7wp"/>
+                            <constraint firstItem="nQf-uy-TPd" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="jxA-yD-LyJ"/>
+                            <constraint firstItem="RpU-fn-Skd" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="sxj-6A-T2z"/>
+                            <constraint firstItem="aKf-yg-cjI" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="y01-Ls-kOw"/>
+                            <constraint firstItem="ym9-8a-9Qg" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="yjy-4u-Scw"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Load www/index.html as file URL" id="c6t-Jn-aiw"/>
